@@ -378,7 +378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d79526515be291048b803ced85e2f7a3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.31
+      value: -6.52
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d79526515be291048b803ced85e2f7a3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -386,7 +386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d79526515be291048b803ced85e2f7a3, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 15.38
+      value: 7.62
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d79526515be291048b803ced85e2f7a3, type: 3}
       propertyPath: m_LocalRotation.w
@@ -755,33 +755,33 @@ MonoBehaviour:
     m_Aspect: 0
   m_HasValidSHForNormalization: 1
   m_SHForNormalization:
-    'sh[ 0]': 0.33719254
-    'sh[ 1]': -0.34041715
-    'sh[ 2]': -0.012459352
-    'sh[ 3]': 0.020796072
-    'sh[ 4]': -0.011316488
-    'sh[ 5]': 0.006166263
-    'sh[ 6]': -0.011907531
-    'sh[ 7]': -0.0019496818
-    'sh[ 8]': -0.036138732
-    'sh[ 9]': 0.31621578
-    'sh[10]': -0.31886324
-    'sh[11]': -0.011393121
-    'sh[12]': 0.019961024
-    'sh[13]': -0.010855667
-    'sh[14]': 0.0056262705
-    'sh[15]': -0.011121058
-    'sh[16]': -0.0018822862
-    'sh[17]': -0.03374739
-    'sh[18]': 0.32714242
-    'sh[19]': -0.32936847
-    'sh[20]': -0.011495171
-    'sh[21]': 0.021212338
-    'sh[22]': -0.011528393
-    'sh[23]': 0.005663102
-    'sh[24]': -0.011442158
-    'sh[25]': -0.0020122433
-    'sh[26]': -0.034719247
+    'sh[ 0]': 3.4028235e+38
+    'sh[ 1]': 0
+    'sh[ 2]': 0
+    'sh[ 3]': 0
+    'sh[ 4]': 0
+    'sh[ 5]': 0
+    'sh[ 6]': 0
+    'sh[ 7]': 0
+    'sh[ 8]': 0
+    'sh[ 9]': 3.4028235e+38
+    'sh[10]': 0
+    'sh[11]': 0
+    'sh[12]': 0
+    'sh[13]': 0
+    'sh[14]': 0
+    'sh[15]': 0
+    'sh[16]': 0
+    'sh[17]': 0
+    'sh[18]': 3.4028235e+38
+    'sh[19]': 0
+    'sh[20]': 0
+    'sh[21]': 0
+    'sh[22]': 0
+    'sh[23]': 0
+    'sh[24]': 0
+    'sh[25]': 0
+    'sh[26]': 0
   m_SHValidForCapturePosition: {x: -1.0000002, y: 5, z: 1}
   m_SHValidForSourcePosition: {x: -1.0000002, y: 5, z: 1}
   m_HDProbeVersion: 9
@@ -1383,13 +1383,13 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
   m_ColorTemperature: 6556
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0.000171081, y: 2803.3254, z: 7.564175e+28, w: 3.8956818e+21}
+  m_BoundingSphereOverride: {x: 5.7453373e-31, y: 3.097271e+27, z: 6.8398014e+25, w: 8.8142447e-29}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -1473,7 +1473,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 51
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1499,13 +1499,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1823688464}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.854537, z: -0, w: 0.5193905}
-  m_LocalPosition: {x: 2.94, y: 0.56, z: 4.33}
+  m_LocalRotation: {x: -0, y: -0.70700055, z: -0, w: 0.70721304}
+  m_LocalPosition: {x: 4.385, y: 1.69, z: -0.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -117.417, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -89.983, z: 0}
 --- !u!114 &1823688468
 MonoBehaviour:
   m_ObjectHideFlags: 0
