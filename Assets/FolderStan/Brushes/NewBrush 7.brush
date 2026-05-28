@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12146, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: NewBrush
+  m_Name: NewBrush 7
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.Brush
-  m_Mask: {fileID: 2800000, guid: 1f62a1a6ec1c0dd498615e0684482795, type: 3}
+  m_Mask: {fileID: 2800000, guid: 3927229222cccd34fa8cea6286f1907f, type: 3}
   m_Falloff:
     serializedVersion: 2
     m_Curve:
