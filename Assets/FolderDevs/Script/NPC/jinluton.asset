@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 794cd1eb43adfbc47921edfdcec33288, type: 3}
-  m_Name: npctest
+  m_Name: jinluton
   m_EditorClassIdentifier: Assembly-CSharp::Subject
-  subjectname: jimmy
+  subjectname: magistus
   bordercolor: {r: 1, g: 0, b: 0, a: 1}
-  innercolor: {r: 0.6784314, g: 0.14062321, b: 0.12941176, a: 1}
+  innercolor: {r: 0, g: 0.6415094, b: 0.635416, a: 1}
   subjectface: {fileID: 0}
