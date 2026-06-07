@@ -992,8 +992,8 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
-  m_Height: 3
+  m_Radius: 0.5
+  m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &668970007
@@ -1256,8 +1256,8 @@ Transform:
   m_GameObject: {fileID: 820163516}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0, y: 0, z: 0.01}
-  m_LocalScale: {x: 5.0256968, y: 5.0256968, z: 5.0256968}
+  m_LocalPosition: {x: -0.00000047684, y: 0, z: 0}
+  m_LocalScale: {x: 2.7854, y: 2.7854, z: 2.7854}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 668970009}
@@ -1299,7 +1299,6 @@ MonoBehaviour:
 '
     Speaker: {fileID: 11400000, guid: c8278a4aea1b6ce4f8e767608d05e955, type: 2}
     Choices: []
-  target: {fileID: 668970009}
   DialoguePanel: {fileID: 640553294646932293}
   SpeakerFaceDisplay: {fileID: 1090336706150208909}
   DialogueBoxBorder: {fileID: 4204356395255229092}
@@ -2922,7 +2921,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialoguebox
   DialogueSegments: []
-  target: {fileID: 0}
   DialoguePanel: {fileID: 0}
   SpeakerFaceDisplay: {fileID: 0}
   DialogueBoxBorder: {fileID: 0}

@@ -8,6 +8,13 @@ public class Dialoguebox : MonoBehaviour
     [Header("Dialogue Content")]
     public DialogueSegment[] DialogueSegments;
 
+
+
+
+    [Header("Npc Refrences")]
+    public Transform target;
+
+
     [Header("UI References")]
     public GameObject DialoguePanel;
     public Image SpeakerFaceDisplay;
@@ -34,7 +41,7 @@ public class Dialoguebox : MonoBehaviour
     public bool inDialogue = false;
     private bool canSkip = false;
     private int dialogueIndex = 0;
-
+   
     void Start()
     {
         if (DialoguePanel != null)
@@ -84,6 +91,8 @@ public class Dialoguebox : MonoBehaviour
     {
         inDialogue = true;
         dialogueIndex = 0;
+        Vector3 direction = transform.position - Camera.main.transform.position;
+        Camera.main.transform.rotation = Quaternion.LookRotation(direction);
 
         if (DialoguePanel != null)
             DialoguePanel.SetActive(true);
