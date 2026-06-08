@@ -1,7 +1,9 @@
-using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
+using System;
 using System.Collections;
+using TMPro;
+using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class Dialoguebox : MonoBehaviour
 {
@@ -228,6 +230,7 @@ public class Dialoguebox : MonoBehaviour
 
     void OnChoicePicked(int nextIndex)
     {
+     
         if (ChoicePanel != null)
             ChoicePanel.SetActive(false);
 
@@ -248,6 +251,7 @@ public class DialogueChoice
 {
     public string ChoiceText;
     public int NextSegmentIndex;
+    public UnityEvent onChoiceSelected;
 }
 
 [System.Serializable]
