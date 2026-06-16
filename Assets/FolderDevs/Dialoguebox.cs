@@ -220,6 +220,7 @@ public class Dialoguebox : MonoBehaviour
                 int index = i;
                 ChoiceButtons[i].onClick.RemoveAllListeners();
                 ChoiceButtons[i].onClick.AddListener(() => OnChoicePicked(choices[index].NextSegmentIndex));
+                ChoiceButtons[i].onClick.AddListener(() => choices[index].onChoiceSelected.Invoke());
             }
             else
             {
