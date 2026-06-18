@@ -15,4 +15,4 @@ MonoBehaviour:
   subjectname: Husband
   bordercolor: {r: 0, g: 0, b: 0, a: 0}
   innercolor: {r: 0, g: 0, b: 0, a: 0}
-  subjectface: {fileID: 21300000, guid: c4f24f210d6ea3d4a9fe0c7d93501b8f, type: 3}
+  subjectface: {fileID: 0}
