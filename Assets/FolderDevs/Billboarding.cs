@@ -10,10 +10,10 @@ public class Billboarding : MonoBehaviour
         CameraForward
     };
 
-    // Use Late update so everything should have finished moving.
+    
     void LateUpdate()
     {
-        // There are two ways people billboard things.
+        
         switch (billboardType)
         {
             case BillboardType.LookAtCamera:
