@@ -3875,6 +3875,10 @@ PrefabInstance:
       propertyPath: inventorypanel
       value: 
       objectReference: {fileID: 59186853}
+    - target: {fileID: 6285875347039240614, guid: 9ed95153c4a7a0f42aee2ce47ca52cea, type: 3}
+      propertyPath: inventoryItems.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

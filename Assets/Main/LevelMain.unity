@@ -62643,6 +62643,51 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3676204634070432155, guid: 378f720adb04b5f4c93226713e908ec6, type: 3}
+--- !u!1 &994729839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 994729840}
+  - component: {fileID: 994729841}
+  m_Layer: 0
+  m_Name: itemRemover
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &994729840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994729839}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 549.13, y: 81.283, z: 1023.44}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &994729841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994729839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 262944c6f3c549548ba33306dc5666e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemRemove
+  itemTag: Hammer
 --- !u!1 &994886302
 GameObject:
   m_ObjectHideFlags: 0
@@ -81345,6 +81390,132 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1254925715}
   m_Mesh: {fileID: 8216269728517261950, guid: f003a3e38a02abc41864c7aeeb1aa82e, type: 3}
+--- !u!1 &1254951687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1254951691}
+  - component: {fileID: 1254951690}
+  - component: {fileID: 1254951689}
+  - component: {fileID: 1254951688}
+  - component: {fileID: 1254951692}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1254951688
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254951687}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1254951689
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254951687}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1254951690
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254951687}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1254951691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254951687}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 547.98, y: 80.28, z: 1024.87}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1254951692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1254951687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6364967674b50a04383d2952cf5947b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ItemPickup
+  item: {fileID: 11400000, guid: 8ad278441ef890b4b992143d94087d53, type: 2}
 --- !u!1 &1255496769
 GameObject:
   m_ObjectHideFlags: 0
@@ -106689,32 +106860,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialoguebox
   DialogueSegments:
-  - Dialogue: Hey! You heading towards that tower aswell? I don't know why, but it
-      felt like it was calling to me. Maybe you feel the same?
+  - Dialogue: 'Hey! do you mind fetching my hammer for me, i probably lost it on
+      the hill, in the middle of the village '
     Speaker: {fileID: 11400000, guid: fa34f4dd216b47146b90152f19617076, type: 2}
-    Choices: []
-  - Dialogue: Yeah. Is there no way around this bridge?
-    Speaker: {fileID: 11400000, guid: eaff7ea8a8cfb0e45b2ee58dbe2e539a, type: 2}
-    Choices: []
-  - Dialogue: "Oh, there is! Right over there, through the cliffs. But you\u2019ll
-      have to find a way to reach the other side."
-    Speaker: {fileID: 11400000, guid: fa34f4dd216b47146b90152f19617076, type: 2}
-    Choices: []
-  - Dialogue: "And I wouldn\u2019t really been able to go, since it's too narrow
-      for Cold Air here to fit through, and I don't really want to leave her behind.
-      She's brought me this far.. "
-    Speaker: {fileID: 11400000, guid: fa34f4dd216b47146b90152f19617076, type: 2}
-    Choices: []
-  - Dialogue: 'Then again, I heard people saying those who go to that tower never
-      come back. So it might be a bit dangerous to take her any further. '
-    Speaker: {fileID: 11400000, guid: fa34f4dd216b47146b90152f19617076, type: 2}
-    Choices: []
-  - Dialogue: Right, well, thanks. Good luck with your horse.
-    Speaker: {fileID: 11400000, guid: eaff7ea8a8cfb0e45b2ee58dbe2e539a, type: 2}
-    Choices: []
-  - Dialogue: Goodbye!
-    Speaker: {fileID: 11400000, guid: fa34f4dd216b47146b90152f19617076, type: 2}
-    Choices: []
+    Choices:
+    - ChoiceText: here yo go!
+      NextSegmentIndex: -1
+      Condition:
+        Type: 0
+        RequiredItem: {fileID: 0}
+        RequiredQuest: {fileID: 0}
+      onChoiceSelected:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 994729841}
+            m_TargetAssemblyTypeName: ItemRemove, Assembly-CSharp
+            m_MethodName: Remove
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
   target: {fileID: 1046547963}
   DialoguePanel: {fileID: 245354843}
   SpeakerFaceDisplay: {fileID: 1287712585}
@@ -135282,3 +135452,5 @@ SceneRoots:
   - {fileID: 2096701573}
   - {fileID: 1395918108}
   - {fileID: 1907360230}
+  - {fileID: 1254951691}
+  - {fileID: 994729840}
