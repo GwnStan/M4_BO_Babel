@@ -212,7 +212,7 @@ public class Dialoguebox : MonoBehaviour
             ChoiceButtons[i].gameObject.SetActive(true);
             ChoiceButtons[i].interactable = conditionMet;
 
-
+x
             if (!conditionMet && choice.Condition != null)
                 ChoiceLabels[i].SetText($"{choice.ChoiceText}\n<size=70%><i>{choice.Condition.GetRequirementText()}</i></size>");
             else
