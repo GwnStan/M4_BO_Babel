@@ -36,7 +36,7 @@ public class Dialoguebox : MonoBehaviour
     public mouseLook MouseLookScript;
     public movement MovementScript;
     public Inventoryscript PlayerInventory; // drag your inventory script here
-
+    public Camera dialogueCamera;
     private bool playerInRange = false;
     public bool inDialogue = false;
     private bool canSkip = false;
@@ -75,7 +75,7 @@ public class Dialoguebox : MonoBehaviour
         {
             if (!canSkip)
             {
-                // Skip to end of current line immediately
+                
                 StopAllCoroutines();
                 if (DialogueDisplay != null) DialogueDisplay.SetText(_fullText);
 
@@ -110,6 +110,12 @@ public class Dialoguebox : MonoBehaviour
         }
 
         if (MovementScript != null) MovementScript.canMove = false;
+
+
+        if (dialogueCamera != null && target != null)
+        {
+            dialogueCamera.transform.LookAt(target);
+        }
 
         SetStyle(DialogueSegments[dialogueIndex].Speaker);
         StartCoroutine(PlayDialogue(DialogueSegments[dialogueIndex].Dialogue));
