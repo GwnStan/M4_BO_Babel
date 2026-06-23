@@ -1707,6 +1707,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BridgeV4
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6299032bded222c4697afe5eff21de0b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 945454400225530728, guid: 6299032bded222c4697afe5eff21de0b, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -41467,6 +41471,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1f0af765eebecda4fa712cd9ddc4b5fe, type: 3}
   m_PrefabInstance: {fileID: 725818951}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &727316280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 6299032bded222c4697afe5eff21de0b, type: 3}
+  m_PrefabInstance: {fileID: 23254022}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &728809125
 GameObject:
   m_ObjectHideFlags: 0
@@ -63452,11 +63461,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e1b53f966e3974294e0b8917792534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::mouseLook
---- !u!4 &1009745079 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6087456946256385577, guid: 9f626045b8f552f4492ef6f282116066, type: 3}
-  m_PrefabInstance: {fileID: 872772836}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1012186732
 GameObject:
   m_ObjectHideFlags: 0
@@ -66170,7 +66174,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3751578a4f40ef344b3b4aec3147eff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _camera: {fileID: 1009745079}
+  billboardType: 0
+  lockX: 1
+  lockY: 0
+  lockZ: 1
 --- !u!1 &1046654849 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -3155672563659695022, guid: 3904753556ce89b40b74bd25a85f5318, type: 3}
@@ -106868,8 +106875,8 @@ MonoBehaviour:
       NextSegmentIndex: -1
       Condition:
         Type: 0
-        RequiredItem: {fileID: 0}
-        RequiredQuest: {fileID: 0}
+        RequiredItem: {fileID: 11400000, guid: 8ad278441ef890b4b992143d94087d53, type: 2}
+        RequiredQuest: {fileID: 11400000, guid: f8d0c31a84dd41341a78553493aa7125, type: 2}
       onChoiceSelected:
         m_PersistentCalls:
           m_Calls:
@@ -106884,6 +106891,18 @@ MonoBehaviour:
               m_FloatArgument: 0
               m_StringArgument: 
               m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 727316280}
+            m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+            m_MethodName: SetActive
+            m_Mode: 6
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 1
             m_CallState: 2
   target: {fileID: 1046547963}
   DialoguePanel: {fileID: 245354843}
@@ -108576,14 +108595,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1707027495}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.017074835, y: -0.37739444, z: -0.041848347, w: 0.92494905}
-  m_LocalPosition: {x: 10.29, y: 1.5155, z: 9.43}
+  m_LocalRotation: {x: 0.035434235, y: -0.78318113, z: -0.028058, w: 0.62014884}
+  m_LocalPosition: {x: 19.38, y: 1.5155029, z: 13.19}
   m_LocalScale: {x: 0.17525709, y: 0.14999463, z: 1.5484416}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 404268656}
   m_Father: {fileID: 307110011}
-  m_LocalEulerAnglesHint: {x: 0, y: -44.392, z: -5.181}
+  m_LocalEulerAnglesHint: {x: 0, y: -103.253, z: -5.181}
 --- !u!114 &1707027497
 MonoBehaviour:
   m_ObjectHideFlags: 0
