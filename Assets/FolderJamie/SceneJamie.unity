@@ -797,7 +797,6 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
-  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &387448685
 SphereCollider:
@@ -1197,7 +1196,6 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
-  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &412397869
 SphereCollider:
@@ -1590,7 +1588,6 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
-  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &582815399
 SphereCollider:
@@ -2234,7 +2231,6 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
-  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &1012807155
 SphereCollider:
@@ -2736,7 +2732,6 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
-  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &1100048462
 SphereCollider:
@@ -3176,134 +3171,6 @@ Transform:
   - {fileID: 1012807153}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1323699169
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1323699172}
-  - component: {fileID: 1323699171}
-  - component: {fileID: 1323699170}
-  - component: {fileID: 1323699173}
-  m_Layer: 0
-  m_Name: Schizo_couple
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1323699170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323699169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1fec933a632ce447849e3cca01f3000, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Billboarding
-  billboardType: 0
---- !u!212 &1323699171
-SpriteRenderer:
-  serializedVersion: 2
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323699169}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: c4f24f210d6ea3d4a9fe0c7d93501b8f, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 9.9, y: 20.25}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_SpriteSortPoint: 0
---- !u!4 &1323699172
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323699169}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.37, y: 1.21, z: -12.88}
-  m_LocalScale: {x: 0.097650446, y: 0.12289656, z: 1.2687}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1584839654}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &1323699173
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323699169}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 10, y: 20.25, z: 0.83}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1384014051
 GameObject:
   m_ObjectHideFlags: 0
@@ -3528,7 +3395,6 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
-  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &1474322339
 SphereCollider:
@@ -3750,261 +3616,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e1b53f966e3974294e0b8917792534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::mouseLook
---- !u!20 &1519231964 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 6018926198717691841, guid: 9af76b5d48fa70b45a8b63e4588f70dd, type: 3}
-  m_PrefabInstance: {fileID: 1791644478}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1584839653
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1584839654}
-  - component: {fileID: 1584839657}
-  - component: {fileID: 1584839656}
-  - component: {fileID: 1584839655}
-  m_Layer: 0
-  m_Name: Sphere
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1584839654
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584839653}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0036256546, y: 0.0076965266, z: 0.036261357, w: 0.9993062}
-  m_LocalPosition: {x: 0.56, y: 6.24, z: -0.223}
-  m_LocalScale: {x: 55, y: 43.903183, z: 4.251784}
-  m_ConstrainProportionsScale: 1
-  m_Children: []
-  m_Father: {fileID: 1323699172}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1584839655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584839653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ee71bae2b2ea2d4386dce41c6feac80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Dialoguebox
-  DialogueSegments:
-  - Dialogue: You two seem weary of something..?
-    Speaker: {fileID: 11400000, guid: eaff7ea8a8cfb0e45b2ee58dbe2e539a, type: 2}
-    Choices: []
-  - Dialogue: OH! Darling, a new guest!! We haven't had those in a while!
-    Speaker: {fileID: 11400000, guid: 79f201457c6960c44b9b89cbb22cf8d4, type: 2}
-    Choices: []
-  - Dialogue: Yes, yes, our last guest was that strange man with the beast, but he
-      never returned after... The incident...
-    Speaker: {fileID: 11400000, guid: 9fc13cbf5ef50f64c8b5ecd5934a1d60, type: 2}
-    Choices: []
-  - Dialogue: The... Incident?
-    Speaker: {fileID: 11400000, guid: eaff7ea8a8cfb0e45b2ee58dbe2e539a, type: 2}
-    Choices: []
-  - Dialogue: Ahaha, don't mind my silly husband. Always saying strange things.
-    Speaker: {fileID: 11400000, guid: 79f201457c6960c44b9b89cbb22cf8d4, type: 2}
-    Choices:
-    - ChoiceText: "What about this \u201Cman with the beast?\u201D"
-      NextSegmentIndex: 5
-      Condition:
-        Type: 0
-        RequiredItem: {fileID: 0}
-        RequiredQuest: {fileID: 0}
-      onChoiceSelected:
-        m_PersistentCalls:
-          m_Calls: []
-    - ChoiceText: How do I get to the tower?
-      NextSegmentIndex: 8
-      Condition:
-        Type: 0
-        RequiredItem: {fileID: 0}
-        RequiredQuest: {fileID: 0}
-      onChoiceSelected:
-        m_PersistentCalls:
-          m_Calls: []
-    - ChoiceText: Goodbye.
-      NextSegmentIndex: -1
-      Condition:
-        Type: 0
-        RequiredItem: {fileID: 0}
-        RequiredQuest: {fileID: 0}
-      onChoiceSelected:
-        m_PersistentCalls:
-          m_Calls: []
-  - Dialogue: Some time ago, this wild man came along with a beast in tow. He rode
-      into town on its back, demanding food and shelter!! And then, the incident...
-      Our neighbor hasn't been the same since
-    Speaker: {fileID: 11400000, guid: 9fc13cbf5ef50f64c8b5ecd5934a1d60, type: 2}
-    Choices: []
-  - Dialogue: I've told you, Reg, our neighbor has always been like this! He's been
-      plotting our downfall since the beginning! You stay clear of that hellspawn,
-      young man! He's always sitting in that chair, staring us down. We just feel
-      so unsafe! It's only a matter of time before he strikes!!
-    Speaker: {fileID: 11400000, guid: 79f201457c6960c44b9b89cbb22cf8d4, type: 2}
-    Choices: []
-  - Dialogue: Now, calm down Martha... I'm sure we will be fine for another while...
-    Speaker: {fileID: 11400000, guid: 9fc13cbf5ef50f64c8b5ecd5934a1d60, type: 2}
-    Choices:
-    - ChoiceText: How do I get to the tower?
-      NextSegmentIndex: 8
-      Condition:
-        Type: 0
-        RequiredItem: {fileID: 0}
-        RequiredQuest: {fileID: 0}
-      onChoiceSelected:
-        m_PersistentCalls:
-          m_Calls: []
-    - ChoiceText: Goodbye.
-      NextSegmentIndex: -1
-      Condition:
-        Type: 0
-        RequiredItem: {fileID: 0}
-        RequiredQuest: {fileID: 0}
-      onChoiceSelected:
-        m_PersistentCalls:
-          m_Calls: []
-  - Dialogue: "Whatever it is, I\u2019m sure that kind smith will know! He's always
-      been as sharp as the weapons he crafts!"
-    Speaker: {fileID: 11400000, guid: 79f201457c6960c44b9b89cbb22cf8d4, type: 2}
-    Choices: []
-  - Dialogue: Wait, whatever it is? Haven't you seen that... Giant tower peeking
-      over the mountains? The one me and many other travelers come here for?
-    Speaker: {fileID: 11400000, guid: eaff7ea8a8cfb0e45b2ee58dbe2e539a, type: 2}
-    Choices: []
-  - Dialogue: Ohh, that! Ahh, me and my darling husband just thought it was a very
-      big tree.
-    Speaker: {fileID: 11400000, guid: 79f201457c6960c44b9b89cbb22cf8d4, type: 2}
-    Choices: []
-  - Dialogue: I thought it was a shrub, personally...
-    Speaker: {fileID: 11400000, guid: 9fc13cbf5ef50f64c8b5ecd5934a1d60, type: 2}
-    Choices:
-    - ChoiceText: "What about this \u201Cman with the beast?\u201D"
-      NextSegmentIndex: 5
-      Condition:
-        Type: 0
-        RequiredItem: {fileID: 0}
-        RequiredQuest: {fileID: 0}
-      onChoiceSelected:
-        m_PersistentCalls:
-          m_Calls: []
-    - ChoiceText: Goodbye
-      NextSegmentIndex: -1
-      Condition:
-        Type: 0
-        RequiredItem: {fileID: 0}
-        RequiredQuest: {fileID: 0}
-      onChoiceSelected:
-        m_PersistentCalls:
-          m_Calls: []
-  target: {fileID: 1323699172}
-  DialoguePanel: {fileID: 1669151250}
-  SpeakerFaceDisplay: {fileID: 215539810}
-  DialogueBoxBorder: {fileID: 915150511}
-  DialogueBoxInner: {fileID: 115567569}
-  SkipIndicator: {fileID: 1791709838}
-  SpeakerNameDisplay: {fileID: 1506637015}
-  DialogueDisplay: {fileID: 1963107213}
-  ChoicePanel: {fileID: 22791510}
-  ChoiceButtons:
-  - {fileID: 548510278}
-  - {fileID: 937137167}
-  - {fileID: 1995225459}
-  ChoiceLabels:
-  - {fileID: 864389750}
-  - {fileID: 2093723670}
-  - {fileID: 1716273858}
-  textspeed: 80
-  interactKey: 102
-  advanceKey: 323
-  MouseLookScript: {fileID: 1519231960}
-  MovementScript: {fileID: 945600309}
-  PlayerInventory: {fileID: 0}
-  dialogueCamera: {fileID: 1519231964}
-  inDialogue: 0
---- !u!135 &1584839656
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584839653}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1584839657
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1584839653}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 73c176f402d2c2f4d929aa5da7585d17, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1669151250
 GameObject:
   m_ObjectHideFlags: 0
@@ -4535,10 +4146,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemRemove
   itemTag: Pickup_Test
-  item:
-    item: {fileID: 0}
-    inventorydescription: 
-    itemcount: 0
 --- !u!4 &1887328974
 Transform:
   m_ObjectHideFlags: 0
@@ -4888,7 +4495,6 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
-  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &2061773751
 SphereCollider:
@@ -5287,7 +4893,6 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
-  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &2129109052
 SphereCollider:
@@ -5359,6 +4964,127 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &7768803133332299850
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: ChoicePanel
+      value: 
+      objectReference: {fileID: 22791510}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: DialoguePanel
+      value: 
+      objectReference: {fileID: 1669151250}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: SkipIndicator
+      value: 
+      objectReference: {fileID: 1791709838}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: MovementScript
+      value: 
+      objectReference: {fileID: 945600309}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: DialogueDisplay
+      value: 
+      objectReference: {fileID: 1963107213}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: MouseLookScript
+      value: 
+      objectReference: {fileID: 1519231960}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: DialogueBoxInner
+      value: 
+      objectReference: {fileID: 115567569}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: DialogueBoxBorder
+      value: 
+      objectReference: {fileID: 915150511}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: SpeakerFaceDisplay
+      value: 
+      objectReference: {fileID: 215539810}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: SpeakerNameDisplay
+      value: 
+      objectReference: {fileID: 1506637015}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: 'ChoiceLabels.Array.data[0]'
+      value: 
+      objectReference: {fileID: 864389750}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: 'ChoiceLabels.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2093723670}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: 'ChoiceLabels.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1716273858}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: 'ChoiceButtons.Array.data[0]'
+      value: 
+      objectReference: {fileID: 548510278}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: 'ChoiceButtons.Array.data[1]'
+      value: 
+      objectReference: {fileID: 937137167}
+    - target: {fileID: 1641815943127887506, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: 'ChoiceButtons.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1995225459}
+    - target: {fileID: 2980689592726341877, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -16.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980689592726341877, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980689592726341877, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -12.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980689592726341877, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980689592726341877, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980689592726341877, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980689592726341877, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980689592726341877, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980689592726341877, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2980689592726341877, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995849978694792745, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
+      propertyPath: m_Name
+      value: Schizo_couple
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 97ec1956a98106843b4a1f50a41d1d3d, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -5367,7 +5093,7 @@ SceneRoots:
   - {fileID: 605001125}
   - {fileID: 1669151254}
   - {fileID: 1791644478}
-  - {fileID: 1323699172}
+  - {fileID: 7768803133332299850}
   - {fileID: 1086328869}
   - {fileID: 163930005}
   - {fileID: 1021438377}
