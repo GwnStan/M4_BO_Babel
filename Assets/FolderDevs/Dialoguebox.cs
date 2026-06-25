@@ -169,13 +169,17 @@ public class Dialoguebox : MonoBehaviour
         }
 
         if (DialogueBoxBorder != null)
-            DialogueBoxBorder.color = new Color(speaker.bordercolor.r, speaker.bordercolor.g, speaker.bordercolor.b, 1f);
+            DialogueBoxBorder.sprite = speaker.subjectborder;
 
         if (DialogueBoxInner != null)
-            DialogueBoxInner.color = new Color(speaker.innercolor.r, speaker.innercolor.g, speaker.innercolor.b, 1f);
+            DialogueBoxInner.sprite = speaker.subjectinner;
 
         if (SpeakerNameDisplay != null)
+        {
             SpeakerNameDisplay.SetText(speaker.subjectname);
+        }
+
+  
     }
 
     IEnumerator PlayDialogue(string dialogue)
