@@ -97,6 +97,7 @@ public class Inventoryscript : MonoBehaviour
         if (itemToRemove != null)
             inventoryItems.Remove(itemToRemove);
     }
+
 }
 
 [System.Serializable]

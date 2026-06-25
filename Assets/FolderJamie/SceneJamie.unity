@@ -797,6 +797,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
+  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &387448685
 SphereCollider:
@@ -1196,6 +1197,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
+  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &412397869
 SphereCollider:
@@ -1588,6 +1590,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
+  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &582815399
 SphereCollider:
@@ -2231,6 +2234,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
+  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &1012807155
 SphereCollider:
@@ -2732,6 +2736,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
+  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &1100048462
 SphereCollider:
@@ -3523,6 +3528,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
+  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &1474322339
 SphereCollider:
@@ -3744,6 +3750,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9e1b53f966e3974294e0b8917792534, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::mouseLook
+--- !u!20 &1519231964 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 6018926198717691841, guid: 9af76b5d48fa70b45a8b63e4588f70dd, type: 3}
+  m_PrefabInstance: {fileID: 1791644478}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1584839653
 GameObject:
   m_ObjectHideFlags: 0
@@ -3922,6 +3933,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
+  dialogueCamera: {fileID: 1519231964}
   inDialogue: 0
 --- !u!135 &1584839656
 SphereCollider:
@@ -4523,6 +4535,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemRemove
   itemTag: Pickup_Test
+  item:
+    item: {fileID: 0}
+    inventorydescription: 
+    itemcount: 0
 --- !u!4 &1887328974
 Transform:
   m_ObjectHideFlags: 0
@@ -4872,6 +4888,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
+  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &2061773751
 SphereCollider:
@@ -5270,6 +5287,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1519231960}
   MovementScript: {fileID: 945600309}
   PlayerInventory: {fileID: 0}
+  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &2129109052
 SphereCollider:
