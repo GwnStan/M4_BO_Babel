@@ -24640,6 +24640,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 0}
   MovementScript: {fileID: 0}
   PlayerInventory: {fileID: 0}
+  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &404268658
 SphereCollider:
@@ -57406,11 +57407,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1018934035750233195, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1018934035750233195, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 2404231456172705453, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_SizeDelta.x
@@ -57470,19 +57471,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5210627890979732766, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5210627890979732766, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5210627890979732766, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 5210627890979732766, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 5364418944163656383, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_SizeDelta.x
@@ -57506,11 +57507,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6127164325669734331, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6127164325669734331, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6127164325669734331, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchorMin.x
@@ -57522,7 +57523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6132942005983201195, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6629404816205843785, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_SizeDelta.x
@@ -57538,11 +57539,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7322606433392243363, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7322606433392243363, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7322606433392243363, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchorMin.y
@@ -57550,11 +57551,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7594031813070889146, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7594031813070889146, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 7644239626378899596, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -63236,6 +63237,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ItemRemove
   itemTag: Hammer
+  item:
+    item: {fileID: 0}
+    inventorydescription: 
+    itemcount: 0
 --- !u!1 &994886302
 GameObject:
   m_ObjectHideFlags: 0
@@ -112267,6 +112272,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1009745075}
   MovementScript: {fileID: 1588210891}
   PlayerInventory: {fileID: 1713774218}
+  dialogueCamera: {fileID: 0}
   inDialogue: 0
 --- !u!135 &1679586254
 SphereCollider:
