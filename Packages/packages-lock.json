@@ -7,14 +7,6 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
-    "com.huanmeng.terraintofbx": {
-      "version": "file:C:/Users/stan0/Downloads/TerrainToFbx-Docs-main/TerrainToFbx-Docs-main",
-      "depth": 0,
-      "source": "local",
-      "dependencies": {
-        "com.unity.formats.fbx": "4.1.3"
-      }
-    },
     "com.unity.2d.sprite": {
       "version": "1.0.0",
       "depth": 0,
