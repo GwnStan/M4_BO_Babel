@@ -15,15 +15,15 @@ public class Dialoguebox : MonoBehaviour
 
     [Header("UI References")]
     public GameObject DialoguePanel;
-    public Image SpeakerFaceDisplay;
-    public Image DialogueBoxBorder;
-    public Image DialogueBoxInner;
-    public Image SkipIndicator;
-    public TextMeshProUGUI SpeakerNameDisplay;
-    public TextMeshProUGUI DialogueDisplay;
+    private Image SpeakerFaceDisplay;
+    private Image DialogueBoxBorder;
+    private Image DialogueBoxInner;
+    private Image SkipIndicator;
+    private TextMeshProUGUI SpeakerNameDisplay;
+    private TextMeshProUGUI DialogueDisplay;
 
     [Header("Choice UI")]
-    public GameObject ChoicePanel;
+    private GameObject ChoicePanel;
     public Button[] ChoiceButtons;
     public TextMeshProUGUI[] ChoiceLabels;
 
@@ -43,9 +43,54 @@ public class Dialoguebox : MonoBehaviour
     private int dialogueIndex = 0;
     private string _fullText;
 
+
+GameObject findChild(String name,GameObject parent)
+{
+Transform child = parent.transform.Find(name);
+GameObject found = child?.gameObject;
+return found;
+
+}
     void Start()
     {
-        if (DialoguePanel != null) DialoguePanel.SetActive(false);
+
+
+        if (DialoguePanel != null)
+        { DialoguePanel.SetActive(false);
+
+            GameObject outerdialoguebox = findChild("outerdialoguebox",DialoguePanel);
+        DialogueBoxBorder = outerdialoguebox.GetComponent<Image>();
+
+// Debug.Log(DialogueBoxBorder);
+// Debug.Log(outerdialoguebox);
+        GameObject innerdialoguebox =  findChild("innerdialoguebox",outerdialoguebox);
+       
+// Debug.Log(innerdialoguebox);
+ DialogueBoxInner = innerdialoguebox.GetComponent<Image>();
+
+        GameObject speakerface =  findChild("speakerface",outerdialoguebox);
+        SpeakerFaceDisplay= speakerface.GetComponent<Image>();
+
+        GameObject speakerNameDisplay =  findChild("name display",innerdialoguebox);
+        SpeakerNameDisplay= speakerNameDisplay.GetComponent<TextMeshProUGUI>();
+  
+        GameObject dialogueDisplay =  findChild("dialoguecontents",innerdialoguebox);
+        DialogueDisplay= dialogueDisplay.GetComponent<TextMeshProUGUI>();
+  
+        GameObject skipIndicator =  findChild("skipIndicator",innerdialoguebox);
+        SkipIndicator= skipIndicator.GetComponent<Image>();
+  
+
+       ChoicePanel =  findChild("choicePanel",innerdialoguebox);
+  
+//   ChoiceButtons = new [3];
+//   for(int i =0 ; i< 3 ; i++)
+//   {
+//       GameObject ChoicePanel =  findChild("choicePanel",innerdialoguebox);
+//         ChoicePanel= choicePanel.GetComponent<Image>();
+
+//   }
+        }
         if (ChoicePanel != null) ChoicePanel.SetActive(false);
     }
 
