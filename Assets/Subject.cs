@@ -9,8 +9,6 @@ public class Subject : ScriptableObject
     public Color bordercolor;
     public Color innercolor;
     public Sprite subjectface;
-
-
-
-
+    public Sprite subjectborder;
+    public Sprite subjectinner;
 }
