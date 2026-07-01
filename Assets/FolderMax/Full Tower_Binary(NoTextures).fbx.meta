@@ -3,7 +3,72 @@ guid: a5e8365ea59198e44b2c634548d0bbe6
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arch1
+    second: {fileID: 2100000, guid: a83a9ddb6273adf428ffac1dd8e5d986, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arch2
+    second: {fileID: 2100000, guid: 0a95711519905d54995923c82fa610a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArrayArch1
+    second: {fileID: 2100000, guid: ca4e1df9c4ca3944c87e5b113f0e3b70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ArrayArch2
+    second: {fileID: 2100000, guid: 4b099423060aa6e4c892312ca21b9cbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Base
+    second: {fileID: 2100000, guid: 7dfe0e449103a8044b8357cc536230a3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Big_Pillar
+    second: {fileID: 2100000, guid: d3b065f48767f464ea2e702b8576c9c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HugeArch1
+    second: {fileID: 2100000, guid: 2e4990622a2ad6148933bc1d20c4f517, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HugeArch2
+    second: {fileID: 2100000, guid: 66588a3424e24fd448fa2567e03d598c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OrganicArch
+    second: {fileID: 2100000, guid: f8098c69fc0b67e4aac1ef36c0d290fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OrganicBigSpike
+    second: {fileID: 2100000, guid: 4b0e2909ae7fc724e8e67b8dc5c315d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OrganicPillar1
+    second: {fileID: 2100000, guid: 8499fd70dcfb9104fbc44e2629a4976c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OrganicPillar2
+    second: {fileID: 2100000, guid: 2c8fb2bd05779634e987133a84c6bac5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: OrganicPillar8
+    second: {fileID: 2100000, guid: 8ed76a7acac5b644395f71c23bc4600b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
