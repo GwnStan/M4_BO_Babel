@@ -14962,7 +14962,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &193284430
 Transform:
   m_ObjectHideFlags: 0
@@ -109827,19 +109827,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1627976062}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: a5e8365ea59198e44b2c634548d0bbe6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 577.7
+      value: -61.099976
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5e8365ea59198e44b2c634548d0bbe6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 97.7
+      value: 28.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5e8365ea59198e44b2c634548d0bbe6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 318.3
+      value: 380.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5e8365ea59198e44b2c634548d0bbe6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -109847,7 +109847,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5e8365ea59198e44b2c634548d0bbe6, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a5e8365ea59198e44b2c634548d0bbe6, type: 3}
       propertyPath: m_LocalRotation.y
@@ -109968,6 +109968,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5e8365ea59198e44b2c634548d0bbe6, type: 3}
+--- !u!4 &1591258903 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a5e8365ea59198e44b2c634548d0bbe6, type: 3}
+  m_PrefabInstance: {fileID: 1591258902}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1592818029
 GameObject:
   m_ObjectHideFlags: 0
@@ -112992,6 +112997,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1591258903}
   - {fileID: 1638199187}
   - {fileID: 394929631}
   m_Father: {fileID: 1433864556}
@@ -150115,4 +150121,3 @@ SceneRoots:
   - {fileID: 1254951691}
   - {fileID: 425875055}
   - {fileID: 193284430}
-  - {fileID: 1591258902}
