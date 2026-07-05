@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07261b3ca64a6344aa03fb6bfb94b67e, type: 3}
   m_Name: Hammer
   m_EditorClassIdentifier: Assembly-CSharp::Item
-  Name: Hammer
-  Description: you dont know how it work's, but someone does
-  inventoryboxcolor: {r: 0.4339623, g: 0.31590095, b: 0.13305448, a: 1}
-  Icon: {fileID: 21300000, guid: 7f52536e0f6ca084ca11f22c078d9232, type: 3}
-  itemTag: Hammer
+  Name: The Builder's Axe
+  Description: The builder might be able to construct a new bridge with this
+  inventoryboxcolor: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
+  Icon: {fileID: 21300000, guid: 9a7cdf0c15b8e8043b54a5cf6c7f547e, type: 3}
+  itemTag: The Builder's Axe
