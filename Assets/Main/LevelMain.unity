@@ -28380,7 +28380,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2348887091658042423, guid: 03b87fd957c71064c994b0852bfa76d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.17694092
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 2348887091658042423, guid: 03b87fd957c71064c994b0852bfa76d3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -28466,6 +28466,38 @@ PrefabInstance:
       propertyPath: 'ChoiceButtons.Array.data[2]'
       value: 
       objectReference: {fileID: 1027781406}
+    - target: {fileID: 6549382498741638198, guid: 03b87fd957c71064c994b0852bfa76d3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549382498741638198, guid: 03b87fd957c71064c994b0852bfa76d3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549382498741638198, guid: 03b87fd957c71064c994b0852bfa76d3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549382498741638198, guid: 03b87fd957c71064c994b0852bfa76d3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549382498741638198, guid: 03b87fd957c71064c994b0852bfa76d3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549382498741638198, guid: 03b87fd957c71064c994b0852bfa76d3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549382498741638198, guid: 03b87fd957c71064c994b0852bfa76d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6549382498741638198, guid: 03b87fd957c71064c994b0852bfa76d3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8094794435031525859, guid: 03b87fd957c71064c994b0852bfa76d3, type: 3}
       propertyPath: m_Name
       value: catlady
@@ -112441,8 +112473,36 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 0a2a6ecb9107cac47a88ba2087ec9fff, type: 3}
     - target: {fileID: 3438818545587923883, guid: 49827dbfda6b3474eae02c0657321306, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438818545587923883, guid: 49827dbfda6b3474eae02c0657321306, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438818545587923883, guid: 49827dbfda6b3474eae02c0657321306, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438818545587923883, guid: 49827dbfda6b3474eae02c0657321306, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438818545587923883, guid: 49827dbfda6b3474eae02c0657321306, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438818545587923883, guid: 49827dbfda6b3474eae02c0657321306, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438818545587923883, guid: 49827dbfda6b3474eae02c0657321306, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3438818545587923883, guid: 49827dbfda6b3474eae02c0657321306, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3974145217418091169, guid: 49827dbfda6b3474eae02c0657321306, type: 3}
       propertyPath: target
@@ -140337,7 +140397,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6087456946256385577, guid: 9f626045b8f552f4492ef6f282116066, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.02
+      value: 0.93
       objectReference: {fileID: 0}
     - target: {fileID: 6124040022415598115, guid: 9f626045b8f552f4492ef6f282116066, type: 3}
       propertyPath: m_Name
@@ -164038,7 +164098,7 @@ GameObject:
   - component: {fileID: 1046547964}
   - component: {fileID: 1046547968}
   m_Layer: 0
-  m_Name: Build quest test
+  m_Name: Builder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164053,7 +164113,7 @@ Transform:
   m_GameObject: {fileID: 1046547962}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.167017, z: -0, w: 0.98595405}
-  m_LocalPosition: {x: -35.14, y: -0.54, z: -153.54}
+  m_LocalPosition: {x: 32.12, y: -6.93, z: -116.48}
   m_LocalScale: {x: 0.1383507, y: 0.13835064, z: 0.13835065}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -164130,7 +164190,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: cfb6092f79f89504f8720adf58630b5d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 365000e54c425c84682487d760590f20, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -198123,7 +198183,7 @@ Transform:
   m_GameObject: {fileID: 1254951687}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 501.3, y: 78.46, z: 876.4}
+  m_LocalPosition: {x: 522.12, y: 73.53, z: 854.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -211699,7 +211759,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2001616206013355004, guid: f64ec614131ccf74cb3cc16e254ecfd8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -135.80206
+      value: -138.07
       objectReference: {fileID: 0}
     - target: {fileID: 2001616206013355004, guid: f64ec614131ccf74cb3cc16e254ecfd8, type: 3}
       propertyPath: m_LocalPosition.y
@@ -211707,7 +211767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2001616206013355004, guid: f64ec614131ccf74cb3cc16e254ecfd8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -109.15173
+      value: -114
       objectReference: {fileID: 0}
     - target: {fileID: 2001616206013355004, guid: f64ec614131ccf74cb3cc16e254ecfd8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -266519,12 +266579,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialoguebox
   DialogueSegments:
-  - Dialogue: 'Hey! do you mind fetching my hammer for me, i probably lost it on
-      the hill, in the middle of the village '
-    Speaker: {fileID: 11400000, guid: fa34f4dd216b47146b90152f19617076, type: 2}
+  - Dialogue: Hey, I heard theres a sinkhole on the way to the tower, and that you
+      might be capable of building something over it?
+    Speaker: {fileID: 11400000, guid: eaff7ea8a8cfb0e45b2ee58dbe2e539a, type: 2}
+    Choices: []
+  - Dialogue: "Ugh, you\u2019re not the first to ask. Where\u2019d all these annoying
+      passerby\u2019s come from?"
+    Speaker: {fileID: 11400000, guid: 9e6be8df10068b84da1df42159d4aa60, type: 2}
+    Choices: []
+  - Dialogue: "Look man, I\u2019d loooove to help you out, but my axe has gone missing,
+      and I can\u2019t really chop up wood without it."
+    Speaker: {fileID: 11400000, guid: 9e6be8df10068b84da1df42159d4aa60, type: 2}
     Choices:
-    - ChoiceText: Il go find it!
-      NextSegmentIndex: -1
+    - ChoiceText: I'll help you find it?
+      NextSegmentIndex: 3
       Condition:
         Type: 0
         RequiredItem: {fileID: 0}
@@ -266532,8 +266600,8 @@ MonoBehaviour:
       onChoiceSelected:
         m_PersistentCalls:
           m_Calls: []
-    - ChoiceText: here yo go!
-      NextSegmentIndex: -1
+    - ChoiceText: Found it!
+      NextSegmentIndex: 6
       Condition:
         Type: 1
         RequiredItem: {fileID: 11400000, guid: 8ad278441ef890b4b992143d94087d53, type: 2}
@@ -266565,6 +266633,35 @@ MonoBehaviour:
               m_StringArgument: 
               m_BoolArgument: 1
             m_CallState: 2
+  - Dialogue: Where did you last see it?
+    Speaker: {fileID: 11400000, guid: eaff7ea8a8cfb0e45b2ee58dbe2e539a, type: 2}
+    Choices: []
+  - Dialogue: I probably lost it somewhere near the sinkhole. I was there when it
+      opened up.
+    Speaker: {fileID: 11400000, guid: 9e6be8df10068b84da1df42159d4aa60, type: 2}
+    Choices: []
+  - Dialogue: I haven't gone near it since, cause I don't trust it to be stable.
+    Speaker: {fileID: 11400000, guid: 9e6be8df10068b84da1df42159d4aa60, type: 2}
+    Choices:
+    - ChoiceText: I'll go look.
+      NextSegmentIndex: -1
+      Condition:
+        Type: 0
+        RequiredItem: {fileID: 0}
+        RequiredQuest: {fileID: 0}
+      onChoiceSelected:
+        m_PersistentCalls:
+          m_Calls: []
+  - Dialogue: I found it! Now can you help with the bridge?
+    Speaker: {fileID: 11400000, guid: eaff7ea8a8cfb0e45b2ee58dbe2e539a, type: 2}
+    Choices: []
+  - Dialogue: "Oh, you're... the sinkhole didn\u2019t collapse further?"
+    Speaker: {fileID: 11400000, guid: 9e6be8df10068b84da1df42159d4aa60, type: 2}
+    Choices: []
+  - Dialogue: "Alright, alright. I\u2019ll build you something fast. You and that
+      weird horse guy that\u2019s probably still waiting there."
+    Speaker: {fileID: 11400000, guid: 9e6be8df10068b84da1df42159d4aa60, type: 2}
+    Choices: []
   target: {fileID: 1046547963}
   DialoguePanel: {fileID: 245354843}
   ChoiceButtons:
@@ -266581,7 +266678,7 @@ MonoBehaviour:
   MouseLookScript: {fileID: 1009745075}
   MovementScript: {fileID: 1588210891}
   PlayerInventory: {fileID: 1713774218}
-  dialogueCamera: {fileID: 0}
+  dialogueCamera: {fileID: 872772837}
   inDialogue: 0
 --- !u!135 &1679586254
 SphereCollider:
