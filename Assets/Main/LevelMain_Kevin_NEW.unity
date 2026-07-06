@@ -151505,7 +151505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 807319347}
   m_Layer: 0
-  m_Name: Cliffs (1)
+  m_Name: CliffsV2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -171092,11 +171092,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7644239626378899596, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 161.27971
+      value: 161.2792
       objectReference: {fileID: 0}
     - target: {fileID: 7644239626378899596, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -25.131256
+      value: -25.13124
       objectReference: {fileID: 0}
     - target: {fileID: 7784591106726527661, guid: 8f1173d929de20448b4b14335f7c0e6e, type: 3}
       propertyPath: m_fontSize
