@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.VolumeProfile
   components:
   - {fileID: 4059359309716008565}
+  - {fileID: 7290066521758556606}
 --- !u!114 &4059359309716008565
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -41,10 +42,10 @@ MonoBehaviour:
     m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.38247597, g: 0.41284397, b: 0.4245283, a: 1}
+    m_Value: {r: 0.5188679, g: 0.51846, b: 0.5164204, a: 1}
   maxFogDistance:
     m_OverrideState: 1
-    m_Value: 200
+    m_Value: 1914.2
   mipFogMaxMip:
     m_OverrideState: 0
     m_Value: 0.5
@@ -56,25 +57,25 @@ MonoBehaviour:
     m_Value: 1000
   baseHeight:
     m_OverrideState: 1
-    m_Value: 94.5
+    m_Value: 105.9
   maximumHeight:
     m_OverrideState: 1
-    m_Value: 299.3
+    m_Value: 382
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 116.3
+    m_Value: 165.5
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 1
   albedo:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: {r: 1, g: 1, b: 1, a: 1}
   globalLightProbeDimmer:
     m_OverrideState: 1
     m_Value: 1
   depthExtent:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 1216
   denoisingMode:
     m_OverrideState: 0
     m_Value: 2
@@ -105,3 +106,25 @@ MonoBehaviour:
   directionalLightsOnly:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &7290066521758556606
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5ab44aadfb1804db5fd470983ac1b8, type: 3}
+  m_Name: LiftGammaGain
+  m_EditorClassIdentifier: Unity.RenderPipelines.HighDefinition.Runtime::UnityEngine.Rendering.HighDefinition.LiftGammaGain
+  active: 1
+  lift:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
+  gamma:
+    m_OverrideState: 1
+    m_Value: {x: 1, y: 1, z: 1, w: -0.06355932}
+  gain:
+    m_OverrideState: 0
+    m_Value: {x: 1, y: 1, z: 1, w: 0}
