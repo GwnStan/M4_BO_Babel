@@ -33,7 +33,7 @@ Material:
   - _DOUBLESIDED_ON
   m_InvalidKeywords: []
   m_LightmapFlags: 2
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2475
   stringTagMap:
@@ -80,7 +80,7 @@ Material:
     m_Ints: []
     m_Floats:
     - Animation_Cutoff: 100
-    - Distance_Fade_End: 150
+    - Distance_Fade_End: 300
     - Distance_Fade_Start: 40
     - Vector1_593c5cea6c4a42e993ed03ced4685732: 0.5
     - Vector1_8651797e3e304e108dbd25f9d5a426ba: 0.5
