@@ -10,11 +10,11 @@ public class player_movement : MonoBehaviour
     public float gravity = -9.81f;
     public bool canMove = true;
     private Vector3 velocity;
+    public float slideSpeed = 15f;
 
     private float maxSlopeAngle = 45f;
 
     private float xRotation = 0f;
-    public float mouseSensitivity = 2f;
 
     void Start()
     {
@@ -31,30 +31,87 @@ public class player_movement : MonoBehaviour
     void handleMovement()
     {
         bool isGrounded = characterController.isGrounded;
+        bool tooSteep = IsGroundTooSteep();
 
-        if (isGrounded && !IsGroundTooSteep())
+        if (isGrounded && CheckClipping())
         {
-            if (velocity.y < 0)
-                velocity.y = -2f;
+            transform.position += Vector3.up * 0.1f;
+        }
 
+        if (isGrounded && !tooSteep)
+        {
+            if (Input.GetKeyDown(KeyCode.Space))
+                velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
+
+        if (!isGrounded || !tooSteep)
+        {
             float x = Input.GetAxis("Horizontal");
             float z = Input.GetAxis("Vertical");
-
             Vector3 move = transform.right * x + transform.forward * z;
             characterController.Move(move * speed * Time.deltaTime);
         }
 
+        if (isGrounded && tooSteep)
+        {
+            Vector3 slideDirection = GetSlideDirection();
+            characterController.Move(slideDirection * slideSpeed * Time.deltaTime);
+            velocity.y = -slideSpeed;
+        }
+
         velocity.y += gravity * Time.deltaTime;
-        characterController.Move(velocity * Time.deltaTime);
+        characterController.Move(new Vector3(0, velocity.y, 0) * Time.deltaTime);
+    }
+
+
+    Vector3 GetSlideDirection()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, 2f))
+        {
+            Vector3 slideDir = Vector3.ProjectOnPlane(Vector3.down, hit.normal);
+            return slideDir.normalized;
+        }
+        return Vector3.down;
+    }
+
+    bool CheckClipping()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, 0.5f))
+        {
+            return true;
+        }
+        return false;
     }
 
     bool IsGroundTooSteep()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, 1f))
+        Vector3[] checkPoints = {
+        transform.position,
+        transform.position + transform.right * 0.2f,
+        transform.position - transform.right * 0.2f,
+        transform.position + transform.forward * 0.2f,
+        transform.position - transform.forward * 0.2f
+    };
+
+        foreach (Vector3 point in checkPoints)
         {
-            float slopeAngle = Vector3.Angle(hit.normal, Vector3.up);
-            return slopeAngle > maxSlopeAngle;
+            RaycastHit hit;
+            if (Physics.Raycast(point, Vector3.down, out hit, 2f))
+            {
+                float slopeAngle = Vector3.Angle(hit.normal, Vector3.up);
+                Debug.Log("Slope Angle: " + slopeAngle);
+                if (slopeAngle > maxSlopeAngle)
+                    return true;
+            }
+
+            if (Physics.Raycast(point, transform.forward, out hit, 0.5f))
+            {
+                float wallAngle = Vector3.Angle(hit.normal, Vector3.up);
+                if (wallAngle > maxSlopeAngle)
+                    return true;
+            }
         }
         return false;
     }
