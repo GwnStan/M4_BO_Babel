@@ -13,14 +13,12 @@ MonoBehaviour:
   m_Name: SoundData
   m_EditorClassIdentifier: 
   defaultSteps:
-  - {fileID: 8300000, guid: 84b94ce33a3b14ba098291e9b45e05a1, type: 3}
-  - {fileID: 8300000, guid: ec2e2c0eaf1ab480d8c89b8a22eb2b25, type: 3}
-  - {fileID: 8300000, guid: bc38a22e489a549c091299ae2cbf2d02, type: 3}
-  - {fileID: 8300000, guid: fe6cfecb73bcb4d03b1930c612539dc0, type: 3}
-  - {fileID: 8300000, guid: 3c5503b3764c04407b2b10cf823ccf68, type: 3}
-  - {fileID: 8300000, guid: 225eb294c61b74217a06909e9adf0f43, type: 3}
-  - {fileID: 8300000, guid: 3e15353082f134c3cb8713be203a4329, type: 3}
-  - {fileID: 8300000, guid: cf40cccf38e294d32aed4442c6e79a7f, type: 3}
+  - {fileID: 8300000, guid: 8de3f9f4bf8174aa6bd6887b205248e0, type: 3}
+  - {fileID: 8300000, guid: f4ed9c7e281f1423483fa8cea4c1511d, type: 3}
+  - {fileID: 8300000, guid: 1735a9d81d498410aac5285672efe962, type: 3}
+  - {fileID: 8300000, guid: 00d004a397f2d4954bfdbe44f187d9c7, type: 3}
+  - {fileID: 8300000, guid: 2c4cedde0ad874dad86cea0119027fb5, type: 3}
+  - {fileID: 8300000, guid: 0216ac56dac794048ae5935bb1aeb580, type: 3}
   jumpSounds:
   - {fileID: 8300000, guid: 0fbc77cf5591e400ea732f8b693ce86f, type: 3}
   - {fileID: 8300000, guid: b3c3455db64334087af9d9e8034aa3ad, type: 3}
